@@ -6,7 +6,7 @@ This repo consists the code for developing three summarization systems for the C
 **System_1**: Lead 2 (baseline)  A summarizer that just extracts and returns the first two sentences of each input text.
 
 **System_2** (Winner model): Feature based extractive summarizer trained with Supervised Machine Learning (Logistic Regression with GridSearch Hyperparameter tuning)
-Scripts for portion generation, Preprocessing, Feature extraction, ML models, Summary Generation, Downsampling experiment can be found in **Task2_Three-steps** directory
+Scripts for portion generation, Preprocessing, Feature extraction, ML models, Summary Generation, Downsampling experiment can be found in **Task_2_ML** directory
 
 **System_3**: [bert_extractive_summarizer](https://pypi.org/project/bert-extractive-summarizer/) (No training, direct inference on the whole test set)
 
